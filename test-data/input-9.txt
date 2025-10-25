@@ -1,0 +1,4 @@
+# Test 9 – After first fire, alternate to secondary
+GT4500,5,0,5,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
