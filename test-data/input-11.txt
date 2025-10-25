@@ -1,0 +1,17 @@
+# Covers: if (wasPrimaryFiredLast) true ág
+GT4500,5,0,5,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
+
+# Covers: secondary.isEmpty() == true ág (fallback to primary)
+GT4500,5,0,0,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
+
+# Covers: primary.isEmpty() == true in ALL mode
+GT4500,0,0,5,0
+TORPEDO,ALL
+
+# Covers: secondary.isEmpty() == true in ALL mode
+GT4500,5,0,0,0
+TORPEDO,ALL
