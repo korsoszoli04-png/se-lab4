@@ -1,0 +1,4 @@
+# Test 3 – primary fails, ship should NOT try secondary
+# Assume primary will fail firing (simulate failure)
+GT4500,10,100,10,0
+TORPEDO,SINGLE
